@@ -63,7 +63,7 @@ jobs:
 
       # Artifact för byggoutput: Efter build-steget skapas en artifact för bygg-outputen, som simulerar ett release-paket.
       - name: Upload build artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: build-output
           path: dist/
